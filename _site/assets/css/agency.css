@@ -2,11 +2,11 @@ body { overflow-x: hidden; font-family: -apple-system, BlinkMacSystemFont, "Sego
 
 p { line-height: 1.75; }
 
-a { color: #fed136; }
+a { color: #000  ;font-weight: 800; text-decoration: underline;}
 
-a:hover { color: #fec503; }
+a:hover { color: #484c4f; }
 
-.text-primary { color: #fed136 !important; }
+.text-primary { color: #C70039  !important; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 700; font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
@@ -18,9 +18,9 @@ h1, h2, h3, h4, h5, h6 { font-weight: 700; font-family: "Montserrat", -apple-sys
 
 @media (min-width: 768px) { section { padding: 150px 0; } }
 
-::-moz-selection { background: #fed136; text-shadow: none; }
+::-moz-selection { background: #C70039 ; text-shadow: none; }
 
-::selection { background: #fed136; text-shadow: none; }
+/*::selection { background: #C70039 ; text-shadow: none; }*/
 
 img::selection { background: transparent; }
 
@@ -30,9 +30,9 @@ img::-moz-selection { background: transparent; }
 
 .btn-xl { font-size: 18px; padding: 20px 40px; }
 
-.btn-primary { background-color: #fed136; border-color: #fed136; }
+.btn-primary { background-color: #000 ; border-color: #000 ; }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover { background-color: #fec810 !important; border-color: #fec810 !important; color: white; }
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover { background-color: #484c4f !important; border-color: #484c4f !important; color: white; }
 
 .btn-primary:active, .btn-primary:focus { box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
 
@@ -40,11 +40,11 @@ img::-moz-selection { background: transparent; }
 
 #mainNav .navbar-toggler { font-size: 12px; right: 0; padding: 13px; text-transform: uppercase; color: white; border: 0; background-color: #fed136; font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
-#mainNav .navbar-brand { color: #fed136; font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+#mainNav .navbar-brand { color: #fed136; text-decoration: none; text-transform: uppercase; font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover { color: #fec503; }
 
-#mainNav .navbar-nav .nav-item .nav-link { font-size: 90%; font-weight: 400; padding: 0.75em 0; letter-spacing: 1px; color: white; font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+#mainNav .navbar-nav .nav-item .nav-link { font-size: 90%; font-weight: 400; padding: 0.75em 0; letter-spacing: 1px; color: white; text-decoration: none;font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover { color: #fed136; }
 
@@ -54,7 +54,7 @@ img::-moz-selection { background: transparent; }
 
 #col-md-3 col-sm-6 { flex: 0 0 auto; }
 
-header.masthead { text-align: center; color: white; background-image: url("../img/header-bg.jpg"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-size: cover; }
+header.masthead { text-align: center; color: #fed136; background-image: url("../img/header-bg.jpg"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-size: cover; }
 
 header.masthead .intro-text { padding-top: 150px; padding-bottom: 100px; }
 
